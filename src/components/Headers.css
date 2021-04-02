@@ -1,0 +1,86 @@
+.header{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 20px;
+          margin-bottom: 13px;
+}
+
+.header__center{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 2px solid gainsboro;
+          border-radius: 8px;
+          /* padding: 10px 250px; */
+          width: 700px;
+          height: 50px;
+          position: relative;
+          background: rgba(220, 220, 220, 0.476);
+          margin-right: 150px;
+}
+
+.header__center input{
+          border: none;
+          outline: none;
+          background: rgba(220, 220, 220, 0);
+          display: flex;
+          align-items: center;
+}
+
+.search_icon{
+          margin-top: 5px;
+          padding-right: 20px;
+}
+
+.arrow_icon{
+         padding-left: 400px;
+
+}
+
+
+.header__right{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 20px;
+          cursor: pointer;
+}
+
+.header__left{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 25px;  
+          cursor: pointer;       
+}
+
+.header__left p{
+          font-size: 23px;
+          margin-left: 10px;
+}
+
+.header__left h2{
+          margin-left: 10px;
+}
+
+.helpIcon{
+          margin-right: 20px;
+          cursor: pointer;
+}
+
+.menu{
+          margin-bottom: 5px;
+          margin-right: 10px;
+}
+
+.tick, .help, .setting{
+          margin-right: 10px;
+          cursor: pointer;
+}
+
+.userProfile{
+          color:rgb(89, 142, 89);
+}
+

@@ -1,0 +1,170 @@
+.LeftItems{
+          display: flex;
+}
+
+.LeftItems__one{
+          margin-right: 100px;
+}
+
+.text{
+          display: flex;
+          margin-top: 18px; 
+          margin-left: 50px;   
+          display: flex;
+          align-items: center;
+          justify-content: center; 
+}
+
+.addIcon{
+          margin-right: 5px;
+}
+
+.mydrive, .sharedWithMe, .recent, .started, .bin{
+          display: flex;
+          margin-top: 18px;  
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 30px;
+          padding-right: 30px;  
+          cursor: pointer;  
+}
+
+
+.text{
+          background: rgba(220, 220, 220, 0.36);
+          padding: 15px 30px;
+          border-radius: 25px;
+          cursor: pointer;
+          margin-bottom: 25px;
+          -webkit-box-shadow: 7px 6px 16px -5px rgba(0,0,0,0.55); 
+          box-shadow: 7px 6px 16px -5px rgba(0,0,0,0.55);
+}
+
+
+.mydrive p{
+          margin-left: 25px;
+}
+
+.sharedWithMe p{
+          margin-left: 25px;
+}
+
+.recent p{
+          margin-left: 25px;
+}
+
+.started p{
+          margin-left: 25px;
+}
+
+.bin{
+          margin-bottom: 10px;
+}
+
+.bin p{
+          margin-left: 25px;
+}
+
+.mydrive:hover{
+          background: rgba(83, 175, 228, 0.598);
+          border-top-right-radius: 25px;
+          border-bottom-right-radius: 25px;
+}
+
+.sharedWithMe:hover{
+          background: rgba(83, 175, 228, 0.598);
+          border-top-right-radius: 25px;
+          border-bottom-right-radius: 25px;
+}
+
+.recent:hover{
+          background: rgba(83, 175, 228, 0.598);
+          border-top-right-radius: 25px;
+          border-bottom-right-radius: 25px;
+}
+
+.started:hover{
+          background: rgba(83, 175, 228, 0.598);
+          border-top-right-radius: 25px;
+          border-bottom-right-radius: 25px;
+}
+
+.bin:hover{
+          background: rgba(83, 175, 228, 0.598);
+          border-top-right-radius: 25px;
+          border-bottom-right-radius: 25px;
+}
+
+/* storage */
+
+.storageLine{
+          width: 150px;
+          height: 5px;
+          background: rgba(159, 159, 159, 0.36);
+          border-radius: 50px;
+          margin-left: 35px;
+}
+
+.remainingStorage{
+          margin-top: 10px;
+          font-size: 12px;
+          margin-bottom: 10px;
+          text-align: center;
+}
+
+.buyButton{
+          text-align: center;
+          margin-top: 20px;
+}
+
+.buyButton button{
+          padding: 8px 25px;
+          background: none;
+          border: 1.5px solid rgb(159, 159, 159);
+          border-radius: 5px;
+          color: rgb(23, 145, 216);
+          font-size: 14px;
+          font-weight: 500;
+          cursor: pointer;
+          transition: 0.2s ease-in-out;
+}
+
+.buyButton button:hover{
+          background:rgba(83, 175, 228, 0.143);
+}
+
+.second{
+          display: flex;
+          flex:0.97;
+          background: rgba(220, 220, 220, 0.476);
+          justify-content: space-between;
+          margin-top: 10px;
+          border-radius: 15px;
+          height: 80vh;
+          margin-left: -60px;
+}
+
+.drive_arrow{
+          margin-left: 20px;
+          margin-top: 10px;
+          display: flex;
+          flex-direction: row;
+          cursor: pointer;
+          font-size: 18px;
+}
+
+
+.infoLst{
+          margin-right: 10px;
+          margin-top: 10px;
+          cursor: pointer;
+}
+
+.arroeDown{
+          margin-left: 10px;
+          
+}
+
+.infoIcon{
+          margin-left: 10px;
+}
